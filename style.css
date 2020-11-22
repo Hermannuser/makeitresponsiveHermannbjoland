@@ -1,0 +1,284 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: black;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+        
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+body
+{
+    font-family: sans-serif;
+    background: black;
+}
+
+.row 
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    
+    margin-left: 0px;
+    margin-top: 0px;
+    color: white;
+    background-color: black;
+    padding-bottom: 300px;
+}
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one
+{
+    font-family: sans-serif;
+}
+
+.btn-one:hover
+{
+    background-color: dimgray;
+    transition: all 0.5s ease-in;
+}
+
+.btn-two
+{
+    font-family: sans-serif;
+}
+
+.btn-two:hover
+{
+    background-color: dimgray;
+    transition: all 0.5s ease-in;
+}
+
+.hero1
+{
+    position: absolute;
+
+    margin-left 0px;
+    margin-top: 0px;
+    color: white;
+    background-color: black;
+    padding-bottom: 300px;
+    padding-right: 300px;
+    padding-left: 300px;
+
+}
+
+.hero2
+{
+    position: absolute;
+
+    margin-left 0px;
+    margin-top: 0px;
+    color: white;
+    background-color: black;
+    padding-bottom: 300px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.hero3
+{
+    box-sizing: border-box;
+}
+
+.login_form{
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-family: Arial;
+    background: dimgray;
+    border-radius: 2%;
+    box-shadow: 0 2px 4px rgba
+    (0, 0, 0, 0, 0.5);
+    padding: 35px;
+}
+h2{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    color: #fff
+}
+input[type="text"]{
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border-bottom: 1px solid #3fff;
+    padding: 14px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0 1s;
+    width: 400px;
+}
+input[type="Password"]{
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border-bottom: 1px solid #3fff;
+    padding: 14px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0 1s;
+    width: 400px;
+}
+input[type="email"]{
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border-bottom: 1px solid #3fff;
+    padding: 14px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0 1s;
+    width: 400px;
+}
+input[type="submit"]{
+    margin-top: 30px;
+    width: 130px;
+    height: 40px;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 70px;
+    padding-right: 10px;  
+}
+input[type="reset"]{
+    margin-top: 30px;
+    width: 130px;
+    height: 40px;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 70px;
+    padding-right: 10px; 
+}
+input[type="submit"]:hover{
+    background: gray;
+    color: white;
+}
+input[type="reset"]:hover{
+    background: gray;
+    border: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
